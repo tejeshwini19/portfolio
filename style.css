@@ -216,4 +216,20 @@ footer {
     .hero {
         width: 90%;
     }
+
+}
+/* FIX BUTTON OVERLAP ON MOBILE */
+@media (max-width: 600px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start;
+    }
+
+    .buttons .btn,
+    .buttons .btn-outline {
+        width: 100%;
+        text-align: center;
+    }
 }
